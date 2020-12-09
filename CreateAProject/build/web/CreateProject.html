@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+       <form action="ProjectServlet" method="GET">
+            <input type="hidden" name="action" value="processAddShows">
+            
+            <label for="title">title:</label>
+            <input type="text" id="title" name="title"><br>
+            
+            <label for="description">description:</label>
+            <input type="text" id="description" name="description"><br>
+            
+            <label for="department">department:</label>
+            <input type="text" id="department" name="department"><br>
+            
+             <label for="tags">tags:</label>
+            <input type="text" id="tags" name="tags"><br>
+            
+            <input type="submit" value="Submit">
+            
+        </form>
+    </body>
+</html>
